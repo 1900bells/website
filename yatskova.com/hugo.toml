@@ -2,3 +2,6 @@ baseURL = 'https://yatskova.com/'
 languageCode = 'en-us'
 title = 'Anya Yatskova'
 theme = 'ananke'
+
+[markup.goldmark.renderer]
+unsafe = true
