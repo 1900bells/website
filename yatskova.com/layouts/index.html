@@ -1,0 +1,19 @@
+
+{{ define "main" }}
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+      {{ .Content }}
+    </article>
+      <div class="pa3 pa4-ns w-100 w-70-ns center">
+
+
+          <h1>Sound Design Demo Reel</h1>
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/nOp0ANonFK8?si=14vNg_xs6RAkKr-u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          <h1>A Closer Look at Some of My Projects/Implementation</h1>
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/R_Pqq9b-NNo?si=8i2x08Am-FepPx7y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+        </div>
+{{end}}
